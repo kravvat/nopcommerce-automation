@@ -1,0 +1,30 @@
+25-10-2025 17:00:10:INFO:Starting: TestAdminLogin > test_title_verification
+25-10-2025 17:00:11:INFO:Success: Title does match
+25-10-2025 17:00:12:INFO:Starting: TestAdminLogin > test_valid_admin_login
+25-10-2025 17:00:15:INFO:Success: 'Dashboard' found
+25-10-2025 17:00:16:INFO:Starting: TestAdminLogin > test_invalid_admin_login
+25-10-2025 17:00:17:INFO:Success: Invalid login detected
+25-10-2025 17:04:39:INFO:Starting: TestAdminLogin > test_title_verification
+25-10-2025 17:04:40:INFO:Success: Title does match
+25-10-2025 17:04:41:INFO:Starting: TestAdminLogin > test_valid_admin_login
+25-10-2025 17:04:44:INFO:Success: 'Dashboard' found
+25-10-2025 17:04:45:INFO:Starting: TestAdminLogin > test_invalid_admin_login
+25-10-2025 17:04:46:INFO:Success: Invalid login detected
+25-10-2025 17:05:48:INFO:Starting: TestAdminLogin > test_title_verification
+25-10-2025 17:05:48:INFO:Success: Title does match
+25-10-2025 17:05:49:INFO:Starting: TestAdminLogin > test_valid_admin_login
+25-10-2025 17:05:51:INFO:Success: 'Dashboard' found
+25-10-2025 17:05:53:INFO:Starting: TestAdminLogin > test_invalid_admin_login
+25-10-2025 17:05:54:INFO:Success: Invalid login detected
+25-10-2025 17:09:44:INFO:Starting: TestAdminLogin > test_invalid_admin_login
+25-10-2025 17:09:44:INFO:Starting: TestAdminLogin > test_valid_admin_login
+25-10-2025 17:09:45:INFO:Starting: TestAdminLogin > test_title_verification
+25-10-2025 17:09:45:INFO:Success: Invalid login detected
+25-10-2025 17:09:45:INFO:Success: Title does match
+25-10-2025 17:09:47:INFO:Success: 'Dashboard' found
+25-10-2025 17:12:14:INFO:Starting: TestAdminLogin > test_title_verification
+25-10-2025 17:12:15:INFO:Success: Title does match
+25-10-2025 17:12:20:INFO:Starting: TestAdminLogin > test_valid_admin_login
+25-10-2025 17:12:22:INFO:Success: 'Dashboard' found
+25-10-2025 17:12:27:INFO:Starting: TestAdminLogin > test_invalid_admin_login
+25-10-2025 17:12:28:INFO:Success: Invalid login detected
