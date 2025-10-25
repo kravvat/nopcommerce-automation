@@ -1,12 +1,27 @@
-24-10-2025 12:52:51:INFO:Starting: TestAdminLogin > test_title_verification
-24-10-2025 12:52:52:INFO:Success: Title does match
-24-10-2025 12:52:53:INFO:Starting: TestAdminLogin > test_valid_admin_login
-24-10-2025 12:52:55:INFO:Success: 'Dashboard' found
-24-10-2025 12:52:56:INFO:Starting: TestAdminLogin > test_invalid_admin_login
-24-10-2025 12:52:57:INFO:Success: Invalid login detected
-24-10-2025 12:54:48:INFO:Starting: TestAdminLogin > test_title_verification
-24-10-2025 12:54:48:INFO:Success: Title does match
-24-10-2025 12:54:49:INFO:Starting: TestAdminLogin > test_valid_admin_login
-24-10-2025 12:54:51:WARNING:Fail: 'Dashboard' not found
-24-10-2025 12:54:53:INFO:Starting: TestAdminLogin > test_invalid_admin_login
-24-10-2025 12:54:54:INFO:Success: Invalid login detected
+25-10-2025 16:20:32:INFO:Starting: TestAdminLogin > test_title_verification
+25-10-2025 16:20:32:INFO:Success: Title does match
+25-10-2025 16:20:33:INFO:Starting: TestAdminLogin > test_valid_admin_login
+25-10-2025 16:20:36:INFO:Success: 'Dashboard' found
+25-10-2025 16:20:37:INFO:Starting: TestAdminLogin > test_invalid_admin_login
+25-10-2025 16:20:38:INFO:Success: Invalid login detected
+25-10-2025 16:25:33:INFO:Starting: TestAdminLogin > test_title_verification
+25-10-2025 16:25:33:INFO:Success: Title does match
+25-10-2025 16:25:38:INFO:Starting: TestAdminLogin > test_valid_admin_login
+25-10-2025 16:25:40:INFO:Success: 'Dashboard' found
+25-10-2025 16:25:45:INFO:Starting: TestAdminLogin > test_invalid_admin_login
+25-10-2025 16:25:46:INFO:Success: Invalid login detected
+25-10-2025 16:25:57:INFO:Starting: TestAdminLogin > test_title_verification
+25-10-2025 16:25:58:INFO:Success: Title does match
+25-10-2025 16:25:59:INFO:Starting: TestAdminLogin > test_valid_admin_login
+25-10-2025 16:26:02:INFO:Success: 'Dashboard' found
+25-10-2025 16:26:03:INFO:Starting: TestAdminLogin > test_invalid_admin_login
+25-10-2025 16:26:04:INFO:Success: Invalid login detected
+25-10-2025 16:30:35:INFO:Starting: TestAdminLogin > test_title_verification
+25-10-2025 16:30:36:INFO:Success: Title does match
+25-10-2025 16:30:37:INFO:Starting: TestAdminLogin > test_valid_admin_login
+25-10-2025 16:31:37:INFO:Starting: TestAdminLogin > test_title_verification
+25-10-2025 16:31:38:INFO:Success: Title does match
+25-10-2025 16:31:39:INFO:Starting: TestAdminLogin > test_valid_admin_login
+25-10-2025 16:31:49:INFO:Success: 'Dashboard' found
+25-10-2025 16:31:51:INFO:Starting: TestAdminLogin > test_invalid_admin_login
+25-10-2025 16:31:52:INFO:Success: Invalid login detected
