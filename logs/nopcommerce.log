@@ -28,3 +28,23 @@
 25-10-2025 17:12:22:INFO:Success: 'Dashboard' found
 25-10-2025 17:12:27:INFO:Starting: TestAdminLogin > test_invalid_admin_login
 25-10-2025 17:12:28:INFO:Success: Invalid login detected
+26-10-2025 16:40:09:INFO:Starting: TestAdminLogin01 > test_invalid_admin_login
+26-10-2025 16:40:09:INFO:Starting: TestAdminLogin02 > test_valid_admin_login_data_driven
+26-10-2025 16:40:09:INFO:Starting: TestAdminLogin01 > test_valid_admin_login
+26-10-2025 16:40:09:INFO:Starting: TestAdminLogin01 > test_title_verification
+26-10-2025 16:40:09:INFO:Success: Title does match
+26-10-2025 16:40:10:INFO:Success: Invalid login detected
+26-10-2025 16:40:11:INFO:Success: 'Dashboard' found
+26-10-2025 16:41:06:INFO:Test case passed
+26-10-2025 16:41:58:INFO:Starting: TestAdminLogin02 > test_valid_admin_login_data_driven
+26-10-2025 16:42:54:INFO:Test case passed
+26-10-2025 16:45:06:INFO:Starting: TestAdminLogin02 > test_valid_admin_login_data_driven
+26-10-2025 16:45:22:INFO:Test case passed
+26-10-2025 16:46:11:INFO:Starting: TestAdminLogin02 > test_valid_admin_login_data_driven
+26-10-2025 16:46:22:WARNING:Defect detected
+26-10-2025 16:46:27:WARNING:Test case failed
+26-10-2025 16:48:24:INFO:Starting: TestAdminLogin02 > test_valid_admin_login_data_driven
+26-10-2025 16:48:35:WARNING:Defect detected in row 7
+26-10-2025 16:48:40:WARNING:Test case failed
+26-10-2025 16:49:17:INFO:Starting: TestAdminLogin02 > test_valid_admin_login_data_driven
+26-10-2025 16:49:34:INFO:Test case passed
