@@ -3,8 +3,8 @@ from selenium.webdriver.common.by import By
 class AdminLoginPage:
     textbox_username_id = "Email"
     textbox_password_id = "Password"
-    btn_login_xpath = "//button[@type='submit']"
-    btn_logout_link_text = "Logout"
+    button_login_xpath = "//button[@type='submit']"
+    button_logout_link_text = "Logout"
     
     def __init__(self, driver):
         self.driver = driver
@@ -21,9 +21,9 @@ class AdminLoginPage:
     
 
     def click_login(self):
-        self.driver.find_element(By.XPATH, self.btn_login_xpath).click()
+        self.driver.find_element(By.XPATH, self.button_login_xpath).click()
         
     
     def click_logout(self):
-        self.driver.find_element(By.LINK_TEXT, self.btn_logout_link_text).click()
+        self.driver.find_element(By.LINK_TEXT, self.button_logout_link_text).click()
     

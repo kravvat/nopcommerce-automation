@@ -48,3 +48,11 @@
 26-10-2025 16:48:40:WARNING:Test case failed
 26-10-2025 16:49:17:INFO:Starting: TestAdminLogin02 > test_valid_admin_login_data_driven
 26-10-2025 16:49:34:INFO:Test case passed
+28-10-2025 12:09:12:INFO:Starting: TestAdminLogin01 > test_title_verification
+28-10-2025 12:09:13:INFO:Success: Title does match
+28-10-2025 12:09:14:INFO:Starting: TestAdminLogin01 > test_valid_admin_login
+28-10-2025 12:09:16:INFO:Success: 'Dashboard' found
+28-10-2025 12:09:17:INFO:Starting: TestAdminLogin01 > test_invalid_admin_login
+28-10-2025 12:09:19:INFO:Success: Invalid login detected
+28-10-2025 12:09:20:INFO:Starting: TestAdminLogin02 > test_valid_admin_login_data_driven
+28-10-2025 12:09:36:INFO:Test case passed
