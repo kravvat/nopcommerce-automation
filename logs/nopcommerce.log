@@ -1,58 +1,30 @@
-25-10-2025 17:00:10:INFO:Starting: TestAdminLogin > test_title_verification
-25-10-2025 17:00:11:INFO:Success: Title does match
-25-10-2025 17:00:12:INFO:Starting: TestAdminLogin > test_valid_admin_login
-25-10-2025 17:00:15:INFO:Success: 'Dashboard' found
-25-10-2025 17:00:16:INFO:Starting: TestAdminLogin > test_invalid_admin_login
-25-10-2025 17:00:17:INFO:Success: Invalid login detected
-25-10-2025 17:04:39:INFO:Starting: TestAdminLogin > test_title_verification
-25-10-2025 17:04:40:INFO:Success: Title does match
-25-10-2025 17:04:41:INFO:Starting: TestAdminLogin > test_valid_admin_login
-25-10-2025 17:04:44:INFO:Success: 'Dashboard' found
-25-10-2025 17:04:45:INFO:Starting: TestAdminLogin > test_invalid_admin_login
-25-10-2025 17:04:46:INFO:Success: Invalid login detected
-25-10-2025 17:05:48:INFO:Starting: TestAdminLogin > test_title_verification
-25-10-2025 17:05:48:INFO:Success: Title does match
-25-10-2025 17:05:49:INFO:Starting: TestAdminLogin > test_valid_admin_login
-25-10-2025 17:05:51:INFO:Success: 'Dashboard' found
-25-10-2025 17:05:53:INFO:Starting: TestAdminLogin > test_invalid_admin_login
-25-10-2025 17:05:54:INFO:Success: Invalid login detected
-25-10-2025 17:09:44:INFO:Starting: TestAdminLogin > test_invalid_admin_login
-25-10-2025 17:09:44:INFO:Starting: TestAdminLogin > test_valid_admin_login
-25-10-2025 17:09:45:INFO:Starting: TestAdminLogin > test_title_verification
-25-10-2025 17:09:45:INFO:Success: Invalid login detected
-25-10-2025 17:09:45:INFO:Success: Title does match
-25-10-2025 17:09:47:INFO:Success: 'Dashboard' found
-25-10-2025 17:12:14:INFO:Starting: TestAdminLogin > test_title_verification
-25-10-2025 17:12:15:INFO:Success: Title does match
-25-10-2025 17:12:20:INFO:Starting: TestAdminLogin > test_valid_admin_login
-25-10-2025 17:12:22:INFO:Success: 'Dashboard' found
-25-10-2025 17:12:27:INFO:Starting: TestAdminLogin > test_invalid_admin_login
-25-10-2025 17:12:28:INFO:Success: Invalid login detected
-26-10-2025 16:40:09:INFO:Starting: TestAdminLogin01 > test_invalid_admin_login
-26-10-2025 16:40:09:INFO:Starting: TestAdminLogin02 > test_valid_admin_login_data_driven
-26-10-2025 16:40:09:INFO:Starting: TestAdminLogin01 > test_valid_admin_login
-26-10-2025 16:40:09:INFO:Starting: TestAdminLogin01 > test_title_verification
-26-10-2025 16:40:09:INFO:Success: Title does match
-26-10-2025 16:40:10:INFO:Success: Invalid login detected
-26-10-2025 16:40:11:INFO:Success: 'Dashboard' found
-26-10-2025 16:41:06:INFO:Test case passed
-26-10-2025 16:41:58:INFO:Starting: TestAdminLogin02 > test_valid_admin_login_data_driven
-26-10-2025 16:42:54:INFO:Test case passed
-26-10-2025 16:45:06:INFO:Starting: TestAdminLogin02 > test_valid_admin_login_data_driven
-26-10-2025 16:45:22:INFO:Test case passed
-26-10-2025 16:46:11:INFO:Starting: TestAdminLogin02 > test_valid_admin_login_data_driven
-26-10-2025 16:46:22:WARNING:Defect detected
-26-10-2025 16:46:27:WARNING:Test case failed
-26-10-2025 16:48:24:INFO:Starting: TestAdminLogin02 > test_valid_admin_login_data_driven
-26-10-2025 16:48:35:WARNING:Defect detected in row 7
-26-10-2025 16:48:40:WARNING:Test case failed
-26-10-2025 16:49:17:INFO:Starting: TestAdminLogin02 > test_valid_admin_login_data_driven
-26-10-2025 16:49:34:INFO:Test case passed
-28-10-2025 12:09:12:INFO:Starting: TestAdminLogin01 > test_title_verification
-28-10-2025 12:09:13:INFO:Success: Title does match
-28-10-2025 12:09:14:INFO:Starting: TestAdminLogin01 > test_valid_admin_login
-28-10-2025 12:09:16:INFO:Success: 'Dashboard' found
-28-10-2025 12:09:17:INFO:Starting: TestAdminLogin01 > test_invalid_admin_login
-28-10-2025 12:09:19:INFO:Success: Invalid login detected
-28-10-2025 12:09:20:INFO:Starting: TestAdminLogin02 > test_valid_admin_login_data_driven
-28-10-2025 12:09:36:INFO:Test case passed
+29-10-2025 15:54:01:INFO:Starting: TestAddCustomer03 > test_add_customer | Instance #3
+29-10-2025 15:54:01:INFO:Starting: TestAddCustomer03 > test_add_customer | Instance #4
+29-10-2025 15:54:01:INFO:Starting: TestAddCustomer03 > test_add_customer | Instance #7
+29-10-2025 15:54:01:INFO:Starting: TestAddCustomer03 > test_add_customer | Instance #5
+29-10-2025 15:54:01:INFO:Starting: TestAddCustomer03 > test_add_customer | Instance #8
+29-10-2025 15:54:01:INFO:Starting: TestAddCustomer03 > test_add_customer | Instance #6
+29-10-2025 15:54:01:INFO:Starting: TestAddCustomer03 > test_add_customer | Instance #0
+29-10-2025 15:54:01:INFO:Starting: TestAddCustomer03 > test_add_customer | Instance #9
+29-10-2025 15:54:01:INFO:Starting: TestAddCustomer03 > test_add_customer | Instance #1
+29-10-2025 15:54:01:INFO:Starting: TestAddCustomer03 > test_add_customer | Instance #2
+29-10-2025 15:54:04:INFO:Login completed | Instance #5
+29-10-2025 15:54:04:INFO:Login completed | Instance #0
+29-10-2025 15:54:04:INFO:Login completed | Instance #3
+29-10-2025 15:54:04:INFO:Login completed | Instance #2
+29-10-2025 15:54:05:INFO:Login completed | Instance #8
+29-10-2025 15:54:05:INFO:Login completed | Instance #4
+29-10-2025 15:54:05:INFO:Login completed | Instance #6
+29-10-2025 15:54:06:INFO:Login completed | Instance #1
+29-10-2025 15:54:07:INFO:Login completed | Instance #7
+29-10-2025 15:54:07:INFO:Login completed | Instance #9
+29-10-2025 15:54:13:INFO:Success: New customer created | Instance #0
+29-10-2025 15:54:14:INFO:Success: New customer created | Instance #3
+29-10-2025 15:54:15:INFO:Success: New customer created | Instance #2
+29-10-2025 15:54:15:INFO:Success: New customer created | Instance #6
+29-10-2025 15:54:16:INFO:Success: New customer created | Instance #1
+29-10-2025 15:54:17:INFO:Success: New customer created | Instance #9
+29-10-2025 15:54:17:INFO:Success: New customer created | Instance #8
+29-10-2025 15:54:18:INFO:Success: New customer created | Instance #5
+29-10-2025 15:54:19:INFO:Success: New customer created | Instance #4
+29-10-2025 15:54:19:WARNING:Fail: New customer was not created | Instance #7
