@@ -47,7 +47,7 @@ class SearchCustomerPage:
         email_found = False
         for row in range(1, self.get_table_rows_count() + 1):
             email_field = self.driver.find_element(By.XPATH,
-                                                   f"//table[@id='customers-grid']//tbody/tr[{row}]/td[2]") 
+                                                   f"//table[@id='customers-grid']//tbody/tr[{row}]/td[2]").text 
             if email_field == email:
                 email_found = True
                 break
@@ -59,8 +59,8 @@ class SearchCustomerPage:
         first_name_found = False
         for row in range(1, self.get_table_rows_count() + 1):
             first_name_field = self.driver.find_element(By.XPATH,
-                                                   f"//table[@id='customers-grid']//tbody/tr[{row}]/td[3]") 
-            if first_name_field == first_name:
+                                                   f"//table[@id='customers-grid']//tbody/tr[{row}]/td[3]").text 
+            if first_name in first_name_field:
                 first_name_found = True
                 break
         
@@ -71,8 +71,8 @@ class SearchCustomerPage:
         last_name_found = False
         for row in range(1, self.get_table_rows_count() + 1):
             last_name_field = self.driver.find_element(By.XPATH,
-                                                   f"//table[@id='customers-grid']//tbody/tr[{row}]/td[3]") 
-            if last_name_field == last_name:
+                                                   f"//table[@id='customers-grid']//tbody/tr[{row}]/td[3]").text
+            if last_name in last_name_field:
                 last_name_found = True
                 break
         
@@ -83,7 +83,7 @@ class SearchCustomerPage:
         company_found = False
         for row in range(1, self.get_table_rows_count() + 1):
             company_field = self.driver.find_element(By.XPATH,
-                                                   f"//table[@id='customers-grid']//tbody/tr[{row}]/td[5]") 
+                                                   f"//table[@id='customers-grid']//tbody/tr[{row}]/td[5]").text
             if company_field == company:
                 company_found = True
                 break
