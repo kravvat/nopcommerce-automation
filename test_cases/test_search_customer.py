@@ -1,5 +1,4 @@
 import time
-from selenium.webdriver.common.by import By
 from base_pages.admin_login_page import AdminLoginPage
 from utilities.read_properties import ReadConfig
 from utilities.logger import LogMaker

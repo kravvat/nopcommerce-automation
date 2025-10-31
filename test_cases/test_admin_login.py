@@ -1,6 +1,4 @@
-import pytest, os, time
 from base_pages.admin_login_page import AdminLoginPage 
-from selenium import webdriver
 from selenium.webdriver.common.by import By
 from utilities.read_properties import ReadConfig
 from utilities.logger import LogMaker
