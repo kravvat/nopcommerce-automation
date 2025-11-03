@@ -1,3 +1,4 @@
+import pytest
 from base_pages.admin_login_page import AdminLoginPage 
 from selenium.webdriver.common.by import By
 from utilities.read_properties import ReadConfig
@@ -11,6 +12,7 @@ class TestAdminLogin01:
     logger = LogMaker.generate_log()
 
 
+    @pytest.mark.regression
     def test_title_verification(self, setup):
         self.logger.info("Starting: TestAdminLogin01 > test_title_verification")
         self.driver = setup
@@ -28,6 +30,8 @@ class TestAdminLogin01:
             assert False
     
 
+    @pytest.mark.sanity
+    @pytest.mark.regression
     def test_valid_admin_login(self, setup):
         self.logger.info("Starting: TestAdminLogin01 > test_valid_admin_login")
         self.driver = setup
@@ -49,6 +53,7 @@ class TestAdminLogin01:
             assert False
 
 
+    @pytest.mark.regression
     def test_invalid_admin_login(self, setup):
         self.logger.info("Starting: TestAdminLogin01 > test_invalid_admin_login")
         self.driver = setup
