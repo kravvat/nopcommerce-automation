@@ -30,8 +30,7 @@ class TestAdminLogin01:
             assert False
     
 
-    @pytest.mark.sanity
-    @pytest.mark.regression
+    @pytest.mark.smoke
     def test_valid_admin_login(self, setup):
         self.logger.info("Starting: TestAdminLogin01 > test_valid_admin_login")
         self.driver = setup

@@ -96,6 +96,7 @@ class TestSearchCustomer04:
             assert False
             
 
+    @pytest.mark.smoke
     def test_search_customer_by_last_name(self, setup):
         self.logger.info("Starting: TestSearchCUstomer04 > test_search_customer_by_first_name")
         self.driver = setup
