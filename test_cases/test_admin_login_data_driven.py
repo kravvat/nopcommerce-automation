@@ -1,4 +1,4 @@
-import time
+import time, pytest 
 from base_pages.admin_login_page import AdminLoginPage 
 from utilities.read_properties import ReadConfig
 from utilities.logger import LogMaker
@@ -12,6 +12,7 @@ class TestAdminLogin02:
     status_list = []
 
 
+    @pytest.mark.smoke
     def test_valid_admin_login_data_driven(self, setup):
         self.logger.info("Starting: TestAdminLogin02 > test_valid_admin_login_data_driven")
         self.driver = setup
