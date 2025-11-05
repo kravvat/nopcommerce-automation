@@ -1,6 +1,7 @@
 *.pyc
 *.log
 *.png
+*.css
 *.html
 venv/
 __pycache__
