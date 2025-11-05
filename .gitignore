@@ -1,5 +1,6 @@
+*.pyc
+*.log
+*.png
+*.html
 venv/
 __pycache__
-*.pyc
-*.html
-*.log
