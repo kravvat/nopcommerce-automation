@@ -53,3 +53,32 @@ class GenerateRandomData():
                 "gift-cards",
             ]
         )
+
+
+    @staticmethod
+    def generate_random_subcategory(category):
+        match category:
+            case "computers":
+                return random.choice(
+                    [
+                        "desktops",
+                        "notebooks",
+                        "software",
+                    ]
+                )
+            case "electronics":
+                return random.choice(
+                    [
+                        "camera-photo",
+                        "cell-phones",
+                        "others",
+                    ]
+                )
+            case "apparel":
+                return random.choice(
+                    [
+                        "shoes",
+                        "clothing",
+                        "accessories",
+                    ]
+                )
