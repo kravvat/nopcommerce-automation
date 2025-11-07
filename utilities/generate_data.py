@@ -38,3 +38,18 @@ class GenerateRandomData():
     def generate_random_comment():
         fake = Faker()
         return fake.sentence(random.randint(1, 100))
+
+
+    @staticmethod
+    def generate_random_category():
+        return random.choice(
+            [
+                "computers",
+                "electronics",
+                "apparel",
+                "digital-downloads",
+                "books",
+                "jewelry",
+                "gift-cards",
+            ]
+        )
