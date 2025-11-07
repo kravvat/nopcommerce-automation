@@ -6,6 +6,7 @@ class AdminLoginPage:
     button_login_xpath = "//button[@type='submit']"
     button_logout_link_text = "Logout"
     
+
     def __init__(self, driver):
         self.driver = driver
 
