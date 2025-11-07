@@ -12,7 +12,6 @@ class TestAdminLogin02:
     status_list = []
 
 
-    @pytest.mark.smoke
     def test_valid_admin_login_data_driven(self, setup):
         self.logger.info("Starting: TestAdminLogin02 > test_valid_admin_login_data_driven")
         self.driver = setup

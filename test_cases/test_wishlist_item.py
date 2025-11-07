@@ -34,5 +34,5 @@ class TestWishlistItem05:
             self.logger.info(f"self.subcategory --> {self.subcategory} | Instance #{instance_id}")
             self.subcategory_page.click_subcategory()
 
-        time.sleep(3)
+        # time.sleep(3)
         self.driver.close()

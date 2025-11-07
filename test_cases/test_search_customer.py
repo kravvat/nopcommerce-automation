@@ -17,8 +17,6 @@ class TestSearchCustomer04:
     company = ""
     
 
-    @pytest.mark.sanity
-    @pytest.mark.regression
     def test_search_customer_by_email(self, setup):
         self.logger.info("Starting: TestSearchCUstomer04 > test_search_customer_by_email")
         self.driver = setup
@@ -57,7 +55,6 @@ class TestSearchCustomer04:
             assert False
     
 
-    @pytest.mark.sanity
     def test_search_customer_by_first_name(self, setup):
         self.logger.info("Starting: TestSearchCUstomer04 > test_search_customer_by_first_name")
         self.driver = setup
@@ -96,7 +93,6 @@ class TestSearchCustomer04:
             assert False
             
 
-    @pytest.mark.smoke
     def test_search_customer_by_last_name(self, setup):
         self.logger.info("Starting: TestSearchCUstomer04 > test_search_customer_by_first_name")
         self.driver = setup

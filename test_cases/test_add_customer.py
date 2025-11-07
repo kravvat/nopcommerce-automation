@@ -22,8 +22,6 @@ class TestAddCustomer03:
     success_message = "The new customer has been added successfully."
     
 
-    @pytest.mark.sanity
-    @pytest.mark.regression
     @pytest.mark.parametrize("instance_id", range(10))
     def test_add_customer(self, setup, instance_id):
         self.logger.info(f"Starting: TestAddCustomer03 > test_add_customer | Instance #{instance_id}")

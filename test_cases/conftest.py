@@ -27,9 +27,8 @@ def setup(browser):
 
 
 def pytest_configure(config):
-    config.stash[metadata_key] ["Project"] = "NopCommerce Automation"
-    config.stash[metadata_key] ["Test Module"] = "Admin Login"
-    config.stash[metadata_key] ["Tester"] = "Kacper Stec"
+    config.stash[metadata_key] ["QA Automation Engineer"] = "Casper Raphael Stec"
+    config.stash[metadata_key] ["Project Name"] = "NopCommerce Automation"
     
 
 @pytest.hookimpl(optionalhook=True)
