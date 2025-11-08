@@ -2,7 +2,7 @@
 *.log
 *.png
 *.css
-*.html
 venv/
 downloads/
+reports/*.html
 __pycache__
