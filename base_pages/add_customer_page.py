@@ -1,10 +1,14 @@
 import time
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 class AddCustomerPage:
     link_customers_menu_xpath = "//a[@href='#']//p[contains(text(), 'Customers')]"
     link_customers_menu_option_xpath = "//a[@href='/Admin/Customer/List']//p[contains(text(),'Customers')]"
+    button_export_data_xpath = "//button[@class='btn btn-success dropdown-toggle']"
+    button_export_all_xpath = "//button[@name='exportexcel-all']"
     button_add_new_xpath = "//a[normalize-space()='Add new']"
     textbox_email_id = "Email"
     textbox_password_id = "Password"
@@ -33,27 +37,41 @@ class AddCustomerPage:
     
     def __init__(self, driver):
         self.driver = driver
+        self.wait = WebDriverWait(driver, 10)
+
         
     def click_customers_menu(self):
-        self.driver.find_element(By.XPATH, self.link_customers_menu_xpath).click()
+        self.wait.until(EC.element_to_be_clickable(self.driver.find_element(By.XPATH, self.link_customers_menu_xpath))).click()
         
+
     def click_customers_menu_option(self):
-        self.driver.find_element(By.XPATH, self.link_customers_menu_option_xpath).click()
-        
+        self.wait.until(EC.element_to_be_clickable(self.driver.find_element(By.XPATH, self.link_customers_menu_option_xpath))).click()
+
+
+    def export_to_excel(self):
+        self.wait.until(EC.element_to_be_clickable(self.driver.find_element(By.XPATH, self.button_export_data_xpath))).click()
+        self.wait.until(EC.element_to_be_clickable(self.driver.find_element(By.XPATH, self.button_export_all_xpath))).click()
+
+
     def click_add_new(self):
         self.driver.find_element(By.XPATH, self.button_add_new_xpath).click()
         
+
     def enter_email(self, email):
         self.driver.find_element(By.ID, self.textbox_email_id).send_keys(email)
     
+
     def enter_password(self, password):
         self.driver.find_element(By.ID, self.textbox_password_id).send_keys(password)
+    
     
     def enter_first_name(self, first_name):
         self.driver.find_element(By.ID, self.textbox_first_name_id).send_keys(first_name)
         
+
     def enter_last_name(self, last_name):
         self.driver.find_element(By.ID, self.textbox_last_name_id).send_keys(last_name)
+
 
     def select_gender(self, gender):
         if gender == "male":
@@ -61,17 +79,21 @@ class AddCustomerPage:
         else:
             self.driver.find_element(By.ID, self.radio_gender_female_id).click()
         
+        
     def enter_company(self, company):
         self.driver.find_element(By.ID, self.textbox_company_id).send_keys(company)
     
+
     def select_tax_exempt(self):
         self.driver.find_element(By.ID, self.checkbox_tax_id).click()
+    
     
     def select_newsletter(self):
         self.driver.find_element(By.XPATH, self.input_newsletter_xpath).click()
         time.sleep(1)
         self.driver.find_element(By.XPATH, self.list_option_newsletter_xpath).click()
         time.sleep(1)
+
 
     def select_customer_roles(self, role):
         if role == "registered":
@@ -101,21 +123,27 @@ class AddCustomerPage:
             self.driver.find_element(By.XPATH, self.list_option_customer_role_vendors_xpath).click()
             self.driver.find_element(By.XPATH, self.input_customer_roles_xpath).click()
     
+
     def select_manager(self, manager):
         dropdown = Select(self.driver.find_element(By.ID, self.dropdown_manager_id))
         dropdown.select_by_visible_text(manager)
 
+
     def select_active(self):
         self.driver.find_element(By.ID, self.checkbox_is_active_id).click()
         
+
     def select_must_change_password(self):
         self.driver.find_element(By.ID, self.checkbox_must_change_password_id).click()
     
+
     def enter_comment(self, comment):
         self.driver.find_element(By.ID, self.textbox_comment_id).send_keys(comment)
    
+
     def click_save(self):
         self.driver.find_element(By.XPATH, self.button_save_xpath).click()
  
+
     def get_success_message(self):
         return self.driver.find_element(By.XPATH, self.success_message_xpath).text

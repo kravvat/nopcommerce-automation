@@ -1,8 +1,8 @@
 import time, random, pytest
 from base_pages.admin_login_page import AdminLoginPage
+from base_pages.add_customer_page import AddCustomerPage
 from utilities.read_properties import ReadConfig
 from utilities.logger import LogMaker
-from base_pages.add_customer_page import AddCustomerPage
 from utilities.generate_data import GenerateRandomData
  
 

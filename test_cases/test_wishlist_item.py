@@ -1,4 +1,4 @@
-import time, pytest
+import pytest
 from utilities.read_properties import ReadConfig
 from base_pages.landing_page import LandingPage
 from base_pages.subcategory_page import SubcategoryPage
@@ -14,7 +14,6 @@ class TestWishlistItem05:
     logger = LogMaker.generate_log()
     
     
-    @pytest.mark.beta
     @pytest.mark.parametrize("instance_id", range(10))
     def test_add_product_to_wishlist(self, setup, instance_id):
         self.logger.info(f"Starting: TestWishlistItem05 > test_add_product_to_wishlist | Instance #{instance_id}")
