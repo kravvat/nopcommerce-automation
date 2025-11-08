@@ -13,7 +13,7 @@ class TestWishlistItem05:
     landing_page_url = ReadConfig.get_landing_page_url()
     logger = LogMaker.generate_log()
     
-    
+    @pytest.mark.smoke 
     @pytest.mark.parametrize("instance_id", range(10))
     def test_add_product_to_wishlist(self, setup, instance_id):
         self.logger.info(f"Starting: TestWishlistItem05 > test_add_product_to_wishlist | Instance #{instance_id}")
