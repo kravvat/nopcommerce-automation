@@ -16,7 +16,7 @@ class TestWishlistItem05:
     
     @pytest.mark.beta
     @pytest.mark.parametrize("instance_id", range(10))
-    def test_add_product_to_wishlist(self, setup, instance_id=1):
+    def test_add_product_to_wishlist(self, setup, instance_id):
         self.logger.info(f"Starting: TestWishlistItem05 > test_add_product_to_wishlist | Instance #{instance_id}")
         self.driver = setup 
         # self.category = GenerateRandomData.generate_random_category()
